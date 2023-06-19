@@ -1,0 +1,41 @@
+void main() {
+ANSEL=0;
+ANSELH=0;
+TRISB=0;
+TRISC=0;
+TRISD=0;
+TRISE=0;
+
+do{
+   PORTB=0b0000;
+   PORTC=0b0000;
+   PORTD=0b01000000;
+   PORTE=0b0000;
+   Delay_ms(500);
+
+   PORTB=0b0000;
+   PORTC=0b0000;
+   PORTD=0b11000110;
+   PORTE=0b0000;
+   Delay_ms(500);
+
+   PORTB=0b0000;
+   PORTC=0b00011100;
+   PORTD=0b11001010;
+   PORTE=0b00000001;
+   Delay_ms(500);
+   
+   /*PORTB=0b11100000;
+   PORTC=0b00100101;
+   PORTD=0b11010010;
+   PORTE=0b00000011;
+   Delay_ms(500);
+ 
+   PORTB=0b00111111;
+   PORTC=0b00000110;
+   PORTD=0b11100011;
+   PORTE=0b00000111;
+   Delay_ms(500); */
+}while(1);
+
+}

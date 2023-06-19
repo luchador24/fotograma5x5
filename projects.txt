@@ -1,0 +1,2 @@
+cubo de led
+propeller 16f648 display propeller	motor de un taladro  placa perforada
